@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     var countClick = 0
     
     override func viewDidLoad() {
-        labelCount.text = "Значение счётчика: \(countClick)"
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
